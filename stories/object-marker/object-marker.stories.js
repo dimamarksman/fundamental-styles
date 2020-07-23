@@ -1,7 +1,7 @@
 import '../../dist/object-marker.css';
 
 export default {
-    title: 'Components/ObjectMarker',
+    title: 'Components/Object Marker',
     parameters: {
         description: `Object marker indicates the technical status of an object. It display the technical state like (draft, 
 unsaved changes, locked, favorite, flagged). Use the object marker for this unless you want to display the status of the object in the business life cycle. 
@@ -53,7 +53,8 @@ export const iconAndText = () => `
 `;
 iconAndText.parameters = {
     docs: {
-        iframeHeight: 150
+        iframeHeight: 150,
+        storyDescription: 'The Marker supports the Icon and Text mode of displaying the Object.'
     }
 };
 
@@ -64,23 +65,23 @@ iconAndText.parameters = {
  */
 
 export const clickableObjectMarker = () => `
-<a class="fd-object-marker--link">
-<span class="fd-object-marker sap-icon--private"></span>
-Locked</a>
-<a class="fd-object-marker--link"> <span class="fd-object-marker sap-icon--user-edit">
-</span>Unsaved Changes</a>
+<a class="fd-object-marker sap-icon--private"> 
+<span class=" fd-object-marker--link "></span>Locked</a>
+<a class="fd-object-marker sap-icon--user-edit">
+<span class=" fd-object-marker--link "></span>Unsaved Changes</a>
 
 <div dir="rtl">
 <h4>RTL Support</h4>
-<a class="fd-object-marker--link">
-	<span class="fd-object-marker sap-icon--private"></span>
-Locked</a>
-<a class="fd-object-marker--link"> <span class="fd-object-marker sap-icon--user-edit">
-</span>Unsaved Changes</a>
+<a class="fd-object-marker sap-icon--private"> 
+<span class=" fd-object-marker--link "></span>Locked</a>
+<a class="fd-object-marker sap-icon--user-edit">
+<span class=" fd-object-marker--link "></span>Unsaved Changes</a>
 </div>
 `;
 clickableObjectMarker.parameters = {
     docs: {
-        iframeHeight: 150
+        iframeHeight: 150,
+        storyDescription:
+            'If the object marker is used as a link, a hover effect is shown on non-touch devices. If the object marker is shown using a combination of icon and text, there is no hover effect for the icon. If Object Marker has to be clicked/tabbed by the user add the fd-object-marker--link modifier class.'
     }
 };
