@@ -1,32 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/ObjectMarker Clickable Object Marker 1`] = `
+exports[`Storyshots Components/Object Marker Clickable Object Marker 1`] = `
 <section>
   
 
   <a
-    class="fd-object-marker--link"
+    class="fd-object-marker fd-object-marker--link sap-icon--private"
   >
-    
-
-    <span
-      class="fd-object-marker sap-icon--private"
-    />
-    
-Locked
+     Locked
   </a>
   
 
   <a
-    class="fd-object-marker--link"
+    class="fd-object-marker fd-object-marker--link sap-icon--user-edit"
   >
-     
-    <span
-      class="fd-object-marker sap-icon--user-edit"
-    >
-      
-
-    </span>
     Unsaved Changes
   </a>
   
@@ -43,28 +30,15 @@ Locked
     
 
     <a
-      class="fd-object-marker--link"
+      class="fd-object-marker fd-object-marker--link sap-icon--private"
     >
-      
-	
-      <span
-        class="fd-object-marker sap-icon--private"
-      />
-      
-Locked
+       Locked
     </a>
     
 
     <a
-      class="fd-object-marker--link"
+      class="fd-object-marker fd-object-marker--link sap-icon--user-edit"
     >
-       
-      <span
-        class="fd-object-marker sap-icon--user-edit"
-      >
-        
-
-      </span>
       Unsaved Changes
     </a>
     
@@ -75,7 +49,7 @@ Locked
 </section>
 `;
 
-exports[`Storyshots Components/ObjectMarker Icon And Text 1`] = `
+exports[`Storyshots Components/Object Marker Icon And Text 1`] = `
 <section>
   
 
@@ -166,7 +140,7 @@ exports[`Storyshots Components/ObjectMarker Icon And Text 1`] = `
 </section>
 `;
 
-exports[`Storyshots Components/ObjectMarker Icon Only 1`] = `
+exports[`Storyshots Components/Object Marker Icon Only 1`] = `
 <section>
   
 
@@ -203,7 +177,7 @@ exports[`Storyshots Components/ObjectMarker Icon Only 1`] = `
 </section>
 `;
 
-exports[`Storyshots Components/ObjectMarker Marker Text 1`] = `
+exports[`Storyshots Components/Object Marker Marker Text 1`] = `
 <section>
   
 
