@@ -25,6 +25,7 @@ $block: #{$fd-namespace}-object-marker;
     font-size: 1rem;
     color: $fd-object-marker-color;
     padding: 0 $fd-object-marker-padding-right 0 0;
+    vertical-align: middle;
   }
 
   // CLICKABLE OBJECT STATUS
@@ -36,7 +37,7 @@ $block: #{$fd-namespace}-object-marker;
 
     &::before {
       position: relative;
-      display: inline-flex;
+      display: inline-block;
     }
 
     &:hover {
@@ -68,7 +69,7 @@ $block: #{$fd-namespace}-object-marker;
     &::before {
       padding-left: $fd-object-marker-padding-right;
       padding-right: 0;
-      display: inline-flex;
+      display: inline-block;
     }
 
     @include fd-empty() {
